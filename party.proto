@@ -33,6 +33,7 @@ message Part {
 }
 
 message UserPart {
+  int64 partyId = 1;
   int64 memberId = 2;
 }
 
